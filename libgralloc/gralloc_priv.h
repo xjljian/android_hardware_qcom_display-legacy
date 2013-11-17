@@ -93,6 +93,9 @@ enum {
      */
     GRALLOC_USAGE_PRIVATE_CP_BUFFER       =       0x00400000,
 
+    /* This flag is used for SECURE display usecase */
+    GRALLOC_USAGE_PRIVATE_SECURE_DISPLAY  =       0x00800000,
+
     /* Legacy heaps - these heaps are no-ops so we are making them zero
      * The flags need to be around to compile certain HALs which have
      * not cleaned up the code
